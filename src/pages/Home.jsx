@@ -6,11 +6,13 @@ import TeamMembers from "../components/TeamMembers";
 import Footer from "../components/Footer";
 import PhotoGallery from "../components/PhotoGallery";
 import Pricing from "../components/Pricing";
+import ScrollButton from "../components/ScrollButton";
 
 function Home() {
   return (
     <div>
       <Navbar />
+      <ScrollButton />
       <Hero />
       <div className="grid justify-center m-10">
         <div className="grid lg:grid-cols-2 place-items-center ">

@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar";
+import Form from "../components/Form";
 
 function Contact() {
   return (
     <div>
       <Navbar />
-      <h1>Contact</h1>
+      <Form />
     </div>
   );
 }

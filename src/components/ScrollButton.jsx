@@ -1,4 +1,4 @@
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp, FaWindowClose } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { use } from "react";
 
